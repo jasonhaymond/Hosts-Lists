@@ -19,8 +19,7 @@ products.office.com
 c.s-microsoft.com
 i.s-microsoft.com
 login.live.com
-login.microsoftonline.com
-g.live.com
+login.microsoftonline.comg.live.com
 dl.delivery.mp.microsoft.com
 geo-prod.do.dsp.mp.microsoft.com
 displaycatalog.mp.microsoft.com
@@ -448,4 +447,3 @@ app-measurement.com
 microsoftonline.com
 nexus.ensighten.com
 clicks.aweber.com
-speedtest.net
