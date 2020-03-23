@@ -1,6 +1,6 @@
-#!bin/bash
+#!/bin/bash
 
 for list in ./*.list
 do
-  sort $list | uniq -u
+  sort "$list" | uniq -u
 done
