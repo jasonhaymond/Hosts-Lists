@@ -19,7 +19,7 @@ jobs:
     - uses: actions/checkout@v2
     - name: Scan for duplicate lists
       run: |
-        sh .github/workflows/scan-duplicates.sh
+        sh .github/workflows/scan-duplicates.sh | tee -a >(ts "%d-%m-%y %H_%M_%S" > .github/workflows/scan-duplicates.log)
 
   verify-domains:
     runs-on: [ubuntu-latest]
@@ -27,4 +27,4 @@ jobs:
       - uses: actions/checkout@v2
       - name: Ping All Hosts
         run: |
-          sh .github/workflows/verify-domains.sh
+          sh .github/workflows/verify-domains.sh | tee -a >(ts "%d-%m-%y %H_%M_%S" > .github/workflows/verify-domains.log)
