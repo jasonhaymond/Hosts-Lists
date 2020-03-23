@@ -1,6 +1,6 @@
 #!/bin/bash
 
-for file in *.txt
+for file in /*.txt
 do
   for domain in file
   do
