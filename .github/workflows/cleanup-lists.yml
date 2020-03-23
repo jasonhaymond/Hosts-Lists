@@ -32,4 +32,4 @@ jobs:
     steps:
       - name: Ping All Hosts
         run: |
-          sh verify-domains.sh
+          sh .github/workflows/verify-domains.sh
