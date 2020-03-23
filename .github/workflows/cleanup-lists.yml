@@ -9,6 +9,7 @@ on:
     branches: [ master ]
     paths:
       - '**.list'
+      - '**.txt'
 
 # A workflow run is made up of one or more jobs that can run sequentially or in parallel
 jobs:
@@ -25,3 +26,10 @@ jobs:
     - name: Scan for duplicate lists
       run: |
         sh .github/workflows/scan-duplicates.sh
+
+  verify-domains:
+    runs-on: [ubuntu-latest]
+    steps:
+      - name: Ping All Hosts
+        run: |
+          sh verify-domains.sh
