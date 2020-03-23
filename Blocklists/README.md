@@ -4,7 +4,7 @@
 ## Blocklist Sources
 
 ### Primary Sources
-https://blocklist.site/app/
-https://firebog.net/
+- https://blocklist.site/app/
+- https://firebog.net/
 
 ### Other Sources
