@@ -1,0 +1,4 @@
+for list in *.list
+do
+  sort $list | uniq -u
+done
