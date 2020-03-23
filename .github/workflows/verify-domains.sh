@@ -8,7 +8,7 @@ do
     if [ ! $? -eq 0 ]
     then
       echo "Domain $domain is unavailable. Commenting out the line."
-      sed -i s/^/# /' "$2"
+      sed -i s/^/#/
     fi
   done
 done
