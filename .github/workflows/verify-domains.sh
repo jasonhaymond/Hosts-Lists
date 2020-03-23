@@ -1,6 +1,6 @@
 #!/bin/bash
 
-for file in /*.txt
+for file in $(find . -name "*.txt")
 do
   for domain in file
   do
