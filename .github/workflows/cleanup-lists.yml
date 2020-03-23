@@ -24,4 +24,4 @@ jobs:
     # Runs a set of commands using the runners shell
     - name: Scan for duplicate lists
       run: |
-        sh ./scan-duplicates.sh
+        sh .github/workflows/scan-duplicates.sh
